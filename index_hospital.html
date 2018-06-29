@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Proyecto Final - Sprint 1</title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Hospital</a>
+            </div>
+        </nav><br>
+        <section class="container">
+            <div class="row" id="menuPrincipal" >
+                <div class="col s2 offset-s1">
+                    <button id="registrarPaciente" class="btn-large">Registrar Paciente</button>
+                </div>
+                <div class="col s2">
+                    <button id="registrarDoctor" class="btn-large">Registrar Doctor</button>
+                </div>
+                <div class="col s2">
+                    <button id="login" class="btn-large">Login</button>
+                </div>
+
+            </div>
+
+            <div class="row" style="display: none;" id="menuPaciente" >
+                <div class="col s2 offset-s1">
+                    <button id="mostrarHistorial" class="btn-large">Mostrar Historial Clinico</button>
+                </div>
+                <!--div class="col s2 offset-s1">
+                    <button id="agregarConsulta" class="btn-large">Agregar Consulta</button>
+                </div-->
+
+            </div>
+
+            <div class="row" style="display: none;" id="menuDoctor" >
+                <div class="col s2 offset-s1">
+                    <button id="mostrarPaciente" class="btn-large">Mostrar Pacientes </button>
+                </div>
+                <div class="col s2 offset-s1">
+                    <button id="agregarConsulta" class="btn-large">Agregar Consulta</button>
+                </div>
+
+            </div>
+
+            <div class="row" style="display: none;" id="atras" >
+                <div class="col s2 offset-s1">
+                    <button id="atras" class="btn-large">Atras</button>
+                </div>
+                <!--div class="col s2 offset-s1">
+                    <button id="agregarConsulta" class="btn-large">Agregar Consulta</button>
+                </div-->
+
+            </div>
+
+        </section>
+        <section id="resultado">
+            <h4>Resultado</h4>
+            <div id="contenedor"></div>
+        </section>
+        <script src="js/vendor/dont-look-at-me0.js"></script>
+        <script src="js/app0.js"></script>
+    </body>
+</html>

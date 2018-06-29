@@ -1,1 +1,0 @@
-# Proyecto Final - Sprint 1
